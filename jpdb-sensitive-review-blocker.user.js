@@ -181,6 +181,7 @@
     }
     function noDeckId() {
         const container = document.createElement('div');
+        container.style.marginTop = '20px';
         const promptText = document.createElement('p');
         promptText.textContent = 'Please enter the ID of the deck you use to store sensitive cards:';
         // update this to allow user to select deck without knowing the ID
