@@ -29,3 +29,5 @@ Tested with Tampermonkey on Opera. If you use a different browser or script mana
 - Allow the user to select an existing deck without having to find the ID for it
 - Allow the user to deselect the selected deck
 - Investigate whether fetching the override page is redundant - probably can just submit an API request immediately
+- Make the text closer to the switch so it's easier to read
+> Maybe next to the start reviewing button instead of below
