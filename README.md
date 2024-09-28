@@ -10,7 +10,6 @@ Tested with Tampermonkey on Opera. If you use a different browser or script mana
 
 ## Installation
 > To install this script, make sure you have Tampermonkey (may or may not work with other script managers) and then click [here](https://github.com/JaiWWW/jpdb-sensitive-review-blocker/raw/main/jpdb-sensitive-review-blocker.user.js), or click <ins>jpdb-sensitive-review-blocker.user.js</ins> above and then click the **Raw** button.
-- **Note to maintainer: make sure these links work after uploading files**
 
 ## Limitations
 - Does not automatically include all potentially sensitive items, instead requiring the user to manually add these.
