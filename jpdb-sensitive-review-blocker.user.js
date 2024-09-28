@@ -7,6 +7,10 @@
 // @match        https://jpdb.io/learn
 // @match        https://jpdb.io/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=jpdb.io
+// @homepageURL  https://github.com/JaiWWW/jpdb-sensitive-review-blocker
+// @supportURL   https://github.com/JaiWWW/jpdb-sensitive-review-blocker/issues/new
+// @downloadURL  https://github.com/JaiWWW/jpdb-sensitive-review-blocker/raw/main/jpdb-sensitive-review-blocker.user.js
+// @updateURL    https://github.com/JaiWWW/jpdb-sensitive-review-blocker/raw/main/jpdb-sensitive-review-blocker.user.js
 // @grant        none
 // ==/UserScript==
 
