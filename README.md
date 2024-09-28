@@ -21,6 +21,9 @@ Tested with Tampermonkey on Opera. If you use a different browser or script mana
 - No known bugs
 
 ## Future ideas
+- Make the due count update on toggling
+> Maybe make this configurable since I will probably have to do network processes for it which take time
+> Also see if I can tell the user how many due reviews are being blocked by the script
 - When no deck is selected, make a button that creates a new deck and selects it
 - Validate deck ID input by checking a deck with the given ID exists
 - Allow the user to select an existing deck without having to find the ID for it
