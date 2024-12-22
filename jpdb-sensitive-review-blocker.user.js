@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         jpdb sensitive review blocker
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Allows the user to quickly toggle blacklist user-set sensitive reviews (eg. for reviewing in public)
 // @author       JaiWWW
 // @match        https://jpdb.io/learn
@@ -200,7 +200,7 @@
         submitButton.addEventListener('click', () => {
             const deckId = inputField.value;
             if (deckId) { // update this to check the deck exists
-                localStorage.setItem('deckid', deckId);
+                localStorage.setItem('sensitive-deck-id', deckId);
                 location.reload(); // Reload the page to apply the new deck ID
             } else {
                 alert('Please enter a valid deck ID.');
@@ -218,6 +218,6 @@
         reviewButton.insertAdjacentElement('afterend', deckid ? await createSwitchElement(deckid) : noDeckId());
     }
 
-    addSwitch(localStorage.getItem('deckid'));
+    addSwitch(localStorage.getItem('sensitive-deck-id'));
 
 })();
