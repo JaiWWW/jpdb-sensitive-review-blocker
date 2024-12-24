@@ -8,8 +8,10 @@ Tested with Tampermonkey on Opera. If you use a different browser or script mana
 - Adds a switch under the 'start reviewing' button to toggle reviewing cards in the designated deck (via blacklist)
 - **NOTE: this script does not include or generate a list of potentially sensitive items. It is up to the user to put sensitive cards in their designated deck when they come across them.**
 
-## Installation
+## Installation and updating
 > To install this script, make sure you have Tampermonkey (may or may not work with other script managers) and then click [here](https://github.com/JaiWWW/jpdb-sensitive-review-blocker/raw/main/script.user.js), or click <ins>script.user.js</ins> above and then click the **Raw** button.
+
+> It should auto-update (at least, on Tampermonkey and presumably Greasemonkey, depending on your settings). If it doesn't or you want to force update immediately, just follow the installation instructions
 
 ## Limitations
 - Does not automatically include all potentially sensitive items, instead requiring the user to manually add these.
