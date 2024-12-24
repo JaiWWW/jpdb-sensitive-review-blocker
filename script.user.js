@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         jpdb sensitive review blocker
+// @name         JPDB Sensitive Review Blocker
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.2.1
 // @description  Allows the user to quickly toggle blacklist user-set sensitive reviews (eg. for reviewing in public)
 // @author       JaiWWW
 // @match        https://jpdb.io/learn
@@ -16,7 +16,7 @@
 
 (function() {
     'use strict';
-    
+
     async function getElement(html, selector, property=null) { // written by copilot
         return new Promise((resolve, reject) => {
             const observer = new MutationObserver((mutations, obs) => {
